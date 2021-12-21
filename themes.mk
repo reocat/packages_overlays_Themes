@@ -344,3 +344,9 @@ PRODUCT_PACKAGES += \
     IconDataOne \
     IconDataThree \
     IconDataTwo
+
+# UDFPS Animations
+ifeq ($(TARGET_UDFPS_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    UdfpsResources
+endif
