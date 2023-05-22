@@ -63,6 +63,11 @@ PRODUCT_PACKAGES += \
     BrightnessSliderShadedOverlay \
     BrightnessSliderThinOverlay \
     BrightnessSliderTranslucentOverlay
+
+# Other
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay \
+    RoundQSOverlay
     
 # Font Overalys
 PRODUCT_PACKAGES += \
