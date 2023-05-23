@@ -11,5 +11,11 @@
             <solid android:color="?android:colorAccent" />
         </shape>
     </item>
-    <item android:gravity="end|center" android:drawable="@drawable/ic_brightness_thumb" />
+    <item android:gravity="end|center">
+        <shape>
+            <corners android:radius="10.0dip" />
+            <size android:height="14.0dip" android:width="14.0dip" />
+            <solid android:color="?android:colorAccent" />
+        </shape>
+    </item>
 </layer-list>
