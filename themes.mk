@@ -210,3 +210,19 @@ PRODUCT_PACKAGES += \
     MicroWaveWiFiOverlay \
     SharpWiFiOverlay \
     NothingDotWiFiOverlay
+
+# Data icons
+PRODUCT_PACKAGES += \
+    AuroraDataOverlay \
+    FaintUIDataOverlay \
+    GradiconDataOverlay \
+    LornDataOverlay \
+    PlumpyDataOverlay
+
+# Data Icon(prebuilt)
+PRODUCT_PACKAGES += \
+    IconDataFive \
+    IconDataFour \
+    IconDataOne \
+    IconDataThree \
+    IconDataTwo
