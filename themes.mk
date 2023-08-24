@@ -32,3 +32,16 @@ PRODUCT_PACKAGES += \
     IconShapeIosOverlay \
     IconShapeRohieMeowOverlay \
     IconShapeLeafyOverlay
+    
+# Navbar styles
+PRODUCT_PACKAGES += \
+    NavbarAndroidOverlay \
+    NavbarAsusOverlay \
+    NavbarMotoOverlay \
+    NavbarNexusOverlay \
+    NavbarOldOverlay \
+    NavbarOnePlusOverlay \
+    NavbarOneUiOverlay \
+    NavbarSammyOverlay \
+    NavbarTecnoCamonOverlay \
+    NavbarDoraOverlay
