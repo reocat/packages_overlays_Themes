@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
     ZillaSlab-MediumItalic.ttf \
     ZillaSlab-Medium.ttf \
     ZillaSlab-SemiBoldItalic.ttf \
-    ZillaSlab-SemiBold.ttf 
+    ZillaSlab-SemiBold.ttf
 
 # Copy fonts
 LOCAL_PATH := packages/overlays/Themes/fonts
@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
     RoundQSOverlay
-    
+
 # Font Overalys
 PRODUCT_PACKAGES += \
     FontAclonicaSourceOverlay \
@@ -150,7 +150,7 @@ PRODUCT_PACKAGES += \
     IconShapeIosOverlay \
     IconShapeRohieMeowOverlay \
     IconShapeLeafyOverlay
-    
+
 # Navbar styles
 PRODUCT_PACKAGES += \
     NavbarAndroidOverlay \
@@ -163,7 +163,7 @@ PRODUCT_PACKAGES += \
     NavbarSammyOverlay \
     NavbarTecnoCamonOverlay \
     NavbarDoraOverlay
-    
+
 # Icon Packs
 PRODUCT_PACKAGES += \
     IconPackCircularAndroidOverlay \
@@ -225,7 +225,7 @@ PRODUCT_PACKAGES += \
     IconPackXperiaAndroidOverlay \
     IconPackXperiaSettingsOverlay \
     IconPackXperiaSystemUIOverlay
-    
+
 # Statusbar Icons
 PRODUCT_PACKAGES += \
     AquariumSignalOverlay \
@@ -289,7 +289,7 @@ PRODUCT_PACKAGES += \
     NinjaSignalOverlay \
     NothingDotSignalOverlay \
     SleekSignalOverlay
-    
+
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
     BarsWiFiOverlay \
@@ -350,3 +350,8 @@ ifeq ($(TARGET_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
     UdfpsResources
 endif
+
+# Utility Overlays
+PRODUCT_PACKAGES += \
+    HideSmartSpace \
+    SmartSpaceOffset
